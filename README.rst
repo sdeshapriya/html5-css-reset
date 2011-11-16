@@ -6,4 +6,8 @@ for Internet Explorer bugs. So I have decided to make single
 CSS reset with ``bonus`` included. If you have any suggestions,
 write to: remigijus (a) jarmalavicius (dot) lt
 
+License: `Public Domain`_
+
 Thanks for your attention!
+
+.. _`Public Domain`: http://www.gnu.org/philosophy/categories.html#PublicDomainSoftware
