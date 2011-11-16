@@ -1,0 +1,110 @@
+/* CSS reset for HTML4 and HTML5
+ *
+ * Author: Remigijus Jarmalavičius <remigijus@jarmalavicius.lt>
+ * Thanks to Blueprint CSS framework for some tips.
+ */
+html {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym,
+address, code, del, dfn, em, img, q,
+dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+dialog, figure, footer, header, hgroup, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+a img {
+  border: none; }
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section {
+  display: block; }
+
+blockquote, q {
+  quotes: "" ""; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: ""; }
+
+body {
+  background: white; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  float: none !important; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 0; }
+
+table, th, td {
+  vertical-align: middle; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+:focus {
+  outline: 0; }
+
+.error, .alert, .notice, .success, .info {
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border: 2px solid #dddddd; }
+
+.error, .alert {
+  background-color: #fbe3e4;
+  color: #8a1f11;
+  border-color: #fbc2c4; }
+
+.notice {
+  background-color: #fff6bf;
+  color: #514721;
+  border-color: #ffd324; }
+
+.success {
+  background-color: #e6efc2;
+  color: #264409;
+  border-color: #c6d880; }
+
+.info {
+  background: #d5edf8;
+  color: #205791;
+  border-color: #92cae4; }
+
+.clear {
+  clear: both; }
+
+.left {
+  float: left; }
+
+.center {
+  float: right; }
+
+.right {
+  float: right; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: block; }
+
+.pointer {
+  cursor: pointer; }
