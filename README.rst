@@ -12,6 +12,18 @@ Since it's managed via `SASS`_ you can easily do many things with this:
 
 NOTE: This implementation of CSS Reset will work fine with HTML4 also!
 
+How to compress or convert to CSS from SASS
+-------------------------------------------
+
+This is what Makefile is created. Simple run::
+
+    make
+
+And you will have two files::
+
+    reset.compressed.css   # compressed CSS file for production use
+    reset.css              # CSS file you can use for development/testing
+
 Some things you should know
 ---------------------------
 
