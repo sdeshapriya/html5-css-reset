@@ -7,7 +7,7 @@ own implementation.
 
 Since it's managed via `SASS`_ you can easily do many things with this:
 * It's easy to extend.
-* It's easy to make in code stadard as you like.
+* It's easy to make in code standard as you like.
 * It's easy to compress file for production use.
 
 NOTE: This implementation of CSS Reset will work fine with HTML4 also!
